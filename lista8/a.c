@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 struct livraria {
     int codigo;
     char titulo[30];
@@ -8,6 +9,7 @@ struct livraria {
     char estilo[30];
     float preco;
 };
+
 int main() {
     struct livraria vetLivros[50];
     int i, qtdLivros = 0, opcao, flag;
