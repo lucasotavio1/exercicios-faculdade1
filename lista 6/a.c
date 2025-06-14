@@ -9,7 +9,7 @@ void fun(int seg, int *hr, int *min, int *s) {
 }
 
 int main() {
-    int seg, hr, min,s;
+    int seg, hr, min, s;
    
     printf("Informe um valor em segundos: ");
     scanf("%d", &seg);
